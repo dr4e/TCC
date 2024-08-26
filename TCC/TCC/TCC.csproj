@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D27F115F-F06A-41F7-8AE8-7A0E26CC8A48}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TCC</RootNamespace>
+    <AssemblyName>TCC</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Formularios\Index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Index.Designer.cs">
+      <DependentUpon>Index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Frm_login.Designer.cs">
+      <DependentUpon>Frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\Index.resx">
+      <DependentUpon>Index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Frm_login.resx">
+      <DependentUpon>Frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carrinho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cellsacola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ceta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cetabaixadinheiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cetacurta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clickdinheiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cubos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dinheirinho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dinheiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Historico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\infovendas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lapis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lupa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mais.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maodinheiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Outraporcentagem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Outroperfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Perfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Porcentagem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sacola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cetadireita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instazap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cetapretadireita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGadmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGadminND.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGcadastro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGfuncionariosnada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGfuncionariotudo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGlogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculadora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICONclickmoeda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICONcubo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICONdinheiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICONmaocell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICONmaodinheiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICONoutraporcentagem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICONperfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICONporcentagem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICONquedavalor.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

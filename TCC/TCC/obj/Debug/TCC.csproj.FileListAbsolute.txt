@@ -1,0 +1,11 @@
+C:\Users\andre\OneDrive\Documentos\licao\TCC\TCC 3\Sistema\TCC\TCC\bin\Debug\TCC.exe.config
+C:\Users\andre\OneDrive\Documentos\licao\TCC\TCC 3\Sistema\TCC\TCC\bin\Debug\TCC.exe
+C:\Users\andre\OneDrive\Documentos\licao\TCC\TCC 3\Sistema\TCC\TCC\bin\Debug\TCC.pdb
+C:\Users\andre\OneDrive\Documentos\licao\TCC\TCC 3\Sistema\TCC\TCC\obj\Debug\TCC.csproj.AssemblyReference.cache
+C:\Users\andre\OneDrive\Documentos\licao\TCC\TCC 3\Sistema\TCC\TCC\obj\Debug\TCC.Index.resources
+C:\Users\andre\OneDrive\Documentos\licao\TCC\TCC 3\Sistema\TCC\TCC\obj\Debug\TCC.Properties.Resources.resources
+C:\Users\andre\OneDrive\Documentos\licao\TCC\TCC 3\Sistema\TCC\TCC\obj\Debug\TCC.csproj.GenerateResource.cache
+C:\Users\andre\OneDrive\Documentos\licao\TCC\TCC 3\Sistema\TCC\TCC\obj\Debug\TCC.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Documentos\licao\TCC\TCC 3\Sistema\TCC\TCC\obj\Debug\TCC.exe
+C:\Users\andre\OneDrive\Documentos\licao\TCC\TCC 3\Sistema\TCC\TCC\obj\Debug\TCC.pdb
+C:\Users\andre\OneDrive\Documentos\licao\TCC\TCC 3\Sistema\TCC\TCC\obj\Debug\TCC.Formularios.Frm_login.resources
