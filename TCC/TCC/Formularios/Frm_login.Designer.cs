@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pic_voltar = new System.Windows.Forms.PictureBox();
             this.lbl_titulo = new System.Windows.Forms.Label();
             this.lbl_subTitulo = new System.Windows.Forms.Label();
             this.lbl_cpf = new System.Windows.Forms.Label();
@@ -36,16 +36,16 @@
             this.msk_cpf = new System.Windows.Forms.MaskedTextBox();
             this.msk_senha = new System.Windows.Forms.MaskedTextBox();
             this.btn_logar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_voltar)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox2
+            // pic_voltar
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(1180, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(72, 33);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.pic_voltar.Location = new System.Drawing.Point(1180, 12);
+            this.pic_voltar.Name = "pic_voltar";
+            this.pic_voltar.Size = new System.Drawing.Size(72, 33);
+            this.pic_voltar.TabIndex = 1;
+            this.pic_voltar.TabStop = false;
             // 
             // lbl_titulo
             // 
@@ -123,6 +123,7 @@
             this.btn_logar.TabIndex = 8;
             this.btn_logar.Text = "Logar";
             this.btn_logar.UseVisualStyleBackColor = false;
+            this.btn_logar.Click += new System.EventHandler(this.btn_logar_Click);
             // 
             // Frm_login
             // 
@@ -137,11 +138,15 @@
             this.Controls.Add(this.lbl_cpf);
             this.Controls.Add(this.lbl_subTitulo);
             this.Controls.Add(this.lbl_titulo);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pic_voltar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Frm_login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "login";
             this.Load += new System.EventHandler(this.Frm_login_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_voltar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -149,7 +154,7 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pic_voltar;
         private System.Windows.Forms.Label lbl_titulo;
         private System.Windows.Forms.Label lbl_subTitulo;
         private System.Windows.Forms.Label lbl_cpf;

@@ -46,6 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formularios\Frm_ADMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Frm_ADMain.Designer.cs">
+      <DependentUpon>Frm_ADMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_ADMCadastroFuncio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Frm_ADMCadastroFuncio.Designer.cs">
+      <DependentUpon>Frm_ADMCadastroFuncio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_FuncioMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Frm_FuncioMain.Designer.cs">
+      <DependentUpon>Frm_FuncioMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_Saldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Frm_Saldo.Designer.cs">
+      <DependentUpon>Frm_Saldo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Index.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +84,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\Frm_ADMain.resx">
+      <DependentUpon>Frm_ADMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Frm_ADMCadastroFuncio.resx">
+      <DependentUpon>Frm_ADMCadastroFuncio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Frm_FuncioMain.resx">
+      <DependentUpon>Frm_FuncioMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Frm_Saldo.resx">
+      <DependentUpon>Frm_Saldo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Index.resx">
       <DependentUpon>Index.cs</DependentUpon>
     </EmbeddedResource>

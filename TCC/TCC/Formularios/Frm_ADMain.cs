@@ -11,28 +11,25 @@ using System.Windows.Forms;
 
 namespace TCC.Formularios
 {
-    public partial class Frm_login : Form
+    public partial class Frm_ADMain : Form
     {
-        //Arredondar Botao
+        //Arredondar botao
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn(int nLeft, int nTop, int nRight, int nBottom, int nWidthEllipse, int nHeightEllipse);
-        public Frm_login()
+
+        public Frm_ADMain()
         {
             InitializeComponent();
         }
 
-        private void Frm_login_Load(object sender, EventArgs e)
+        private void btn_funcionarios_Load(object sender, EventArgs e)
         {
-            //Arredondar Botao
-            btn_logar.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_logar.Width, btn_logar.Height, 30, 30));
-        }
+            Button[] botoes = { btn_vender, btn_funcio, btn_historico, btn_produtos, btn_sair};
 
-        private void btn_logar_Click(object sender, EventArgs e)
-        {
-            Frm_ADMain frm = new Frm_ADMain(); 
-            this.Hide();
-            frm.ShowDialog();
-            this.Close();
+            foreach (Button botao in botoes)
+            {
+                botao.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, botao.Width, botao.Height, 30, 30));
+            }
         }
     }
 }

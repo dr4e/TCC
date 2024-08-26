@@ -9,3 +9,18 @@ C:\Users\andre\OneDrive\Documentos\licao\TCC\TCC 3\Sistema\TCC\TCC\obj\Debug\TCC
 C:\Users\andre\OneDrive\Documentos\licao\TCC\TCC 3\Sistema\TCC\TCC\obj\Debug\TCC.exe
 C:\Users\andre\OneDrive\Documentos\licao\TCC\TCC 3\Sistema\TCC\TCC\obj\Debug\TCC.pdb
 C:\Users\andre\OneDrive\Documentos\licao\TCC\TCC 3\Sistema\TCC\TCC\obj\Debug\TCC.Formularios.Frm_login.resources
+C:\Users\Aluno\Downloads\TCC-main\TCC-main\TCC\TCC\obj\Debug\TCC.csproj.AssemblyReference.cache
+C:\Users\Aluno\Downloads\TCC-main\TCC-main\TCC\TCC\obj\Debug\TCC.exe
+C:\Users\Aluno\Downloads\TCC-main\TCC-main\TCC\TCC\obj\Debug\TCC.pdb
+C:\Users\Aluno\Downloads\TCC-main\TCC-main\TCC\TCC\bin\Debug\TCC.exe.config
+C:\Users\Aluno\Downloads\TCC-main\TCC-main\TCC\TCC\bin\Debug\TCC.exe
+C:\Users\Aluno\Downloads\TCC-main\TCC-main\TCC\TCC\bin\Debug\TCC.pdb
+C:\Users\Aluno\Downloads\TCC-main\TCC-main\TCC\TCC\obj\Debug\TCC.Index.resources
+C:\Users\Aluno\Downloads\TCC-main\TCC-main\TCC\TCC\obj\Debug\TCC.Formularios.Frm_login.resources
+C:\Users\Aluno\Downloads\TCC-main\TCC-main\TCC\TCC\obj\Debug\TCC.Properties.Resources.resources
+C:\Users\Aluno\Downloads\TCC-main\TCC-main\TCC\TCC\obj\Debug\TCC.csproj.GenerateResource.cache
+C:\Users\Aluno\Downloads\TCC-main\TCC-main\TCC\TCC\obj\Debug\TCC.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Downloads\TCC-main\TCC-main\TCC\TCC\obj\Debug\TCC.Formularios.Frm_FuncioMain.resources
+C:\Users\Aluno\Downloads\TCC-main\TCC-main\TCC\TCC\obj\Debug\TCC.Formularios.Frm_ADMain.resources
+C:\Users\Aluno\Downloads\TCC-main\TCC-main\TCC\TCC\obj\Debug\TCC.Formularios.Frm_ADMCadastroFuncio.resources
+C:\Users\Aluno\Downloads\TCC-main\TCC-main\TCC\TCC\obj\Debug\TCC.Formularios.Frm_Saldo.resources
