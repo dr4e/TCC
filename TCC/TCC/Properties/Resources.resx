@@ -142,6 +142,9 @@
   <data name="BGlogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BGlogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BGpadrao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BGpadrao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="calculadora" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\calculadora.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -156,9 +159,6 @@
   </data>
   <data name="cetabaixadinheiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cetabaixadinheiro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cetacurta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cetacurta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cetadireita" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cetadireita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -177,6 +177,12 @@
   </data>
   <data name="dinheiro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dinheiro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="direita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\direita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="equerda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\equerda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Historico" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Historico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

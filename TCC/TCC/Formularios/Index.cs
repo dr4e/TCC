@@ -31,7 +31,7 @@ namespace TCC {
 
         private void btn_entrar_Click(object sender, EventArgs e)
         {
-            Frm_login frm = new Frm_login();
+            Frm_Login frm = new Frm_Login();
             this.Hide();
             frm.ShowDialog();
             this.Close();

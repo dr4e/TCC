@@ -38,7 +38,7 @@ namespace TCC.Formularios
             // 
             // btn_vender
             // 
-            this.btn_vender.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btn_vender.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(92)))), ((int)(((byte)(151)))));
             this.btn_vender.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btn_vender.FlatAppearance.BorderSize = 0;
             this.btn_vender.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
@@ -51,10 +51,11 @@ namespace TCC.Formularios
             this.btn_vender.TabIndex = 0;
             this.btn_vender.Text = "Vender";
             this.btn_vender.UseVisualStyleBackColor = false;
+            this.btn_vender.Click += new System.EventHandler(this.btn_vender_Click);
             // 
             // btn_sair
             // 
-            this.btn_sair.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btn_sair.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(92)))), ((int)(((byte)(151)))));
             this.btn_sair.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btn_sair.FlatAppearance.BorderSize = 0;
             this.btn_sair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -65,6 +66,7 @@ namespace TCC.Formularios
             this.btn_sair.TabIndex = 2;
             this.btn_sair.Text = "Sair";
             this.btn_sair.UseVisualStyleBackColor = false;
+            this.btn_sair.Click += new System.EventHandler(this.btn_sair_Click);
             // 
             // lbl_titulo
             // 
@@ -79,9 +81,11 @@ namespace TCC.Formularios
             // 
             // pic_voltar
             // 
-            this.pic_voltar.Location = new System.Drawing.Point(1180, 12);
+            this.pic_voltar.BackColor = System.Drawing.Color.Transparent;
+            this.pic_voltar.Image = global::TCC.Properties.Resources.equerda;
+            this.pic_voltar.Location = new System.Drawing.Point(1217, 12);
             this.pic_voltar.Name = "pic_voltar";
-            this.pic_voltar.Size = new System.Drawing.Size(72, 33);
+            this.pic_voltar.Size = new System.Drawing.Size(35, 38);
             this.pic_voltar.TabIndex = 4;
             this.pic_voltar.TabStop = false;
             // 

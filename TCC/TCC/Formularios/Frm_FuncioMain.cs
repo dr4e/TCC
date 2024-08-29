@@ -27,5 +27,19 @@ namespace TCC.Formularios
             btn_vender.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_vender.Width, btn_vender.Height, 30, 30));
             btn_sair.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, btn_sair.Width, btn_sair.Height, 30, 30));
         }
+
+        private void btn_sair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btn_vender_Click(object sender, EventArgs e)
+        {
+            Frm_Saldo frm = new Frm_Saldo();
+            this.Hide();
+            frm.ShowDialog();
+            this.Close();
+
+        }
     }
 }

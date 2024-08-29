@@ -29,7 +29,6 @@ namespace TCC.Formularios
         /// </summary>
         private void InitializeComponent()
         {
-            this.pic_voltar = new System.Windows.Forms.PictureBox();
             this.lbl_titulo = new System.Windows.Forms.Label();
             this.lbl_nome = new System.Windows.Forms.Label();
             this.lbl_cpf = new System.Windows.Forms.Label();
@@ -38,16 +37,9 @@ namespace TCC.Formularios
             this.msk_cpf = new System.Windows.Forms.MaskedTextBox();
             this.txt_senha = new System.Windows.Forms.TextBox();
             this.btn_cadastrar = new System.Windows.Forms.Button();
+            this.pic_voltar = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pic_voltar)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pic_voltar
-            // 
-            this.pic_voltar.Location = new System.Drawing.Point(1180, 12);
-            this.pic_voltar.Name = "pic_voltar";
-            this.pic_voltar.Size = new System.Drawing.Size(72, 33);
-            this.pic_voltar.TabIndex = 2;
-            this.pic_voltar.TabStop = false;
             // 
             // lbl_titulo
             // 
@@ -133,12 +125,23 @@ namespace TCC.Formularios
             this.btn_cadastrar.Text = "Cadastrar";
             this.btn_cadastrar.UseVisualStyleBackColor = false;
             // 
+            // pic_voltar
+            // 
+            this.pic_voltar.BackColor = System.Drawing.Color.Transparent;
+            this.pic_voltar.Image = global::TCC.Properties.Resources.equerda;
+            this.pic_voltar.Location = new System.Drawing.Point(1217, 12);
+            this.pic_voltar.Name = "pic_voltar";
+            this.pic_voltar.Size = new System.Drawing.Size(35, 38);
+            this.pic_voltar.TabIndex = 11;
+            this.pic_voltar.TabStop = false;
+            // 
             // Frm_ADMCadastroFuncio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::TCC.Properties.Resources.BGcadastro;
             this.ClientSize = new System.Drawing.Size(1264, 761);
+            this.Controls.Add(this.pic_voltar);
             this.Controls.Add(this.btn_cadastrar);
             this.Controls.Add(this.txt_senha);
             this.Controls.Add(this.msk_cpf);
@@ -147,7 +150,6 @@ namespace TCC.Formularios
             this.Controls.Add(this.lbl_cpf);
             this.Controls.Add(this.lbl_nome);
             this.Controls.Add(this.lbl_titulo);
-            this.Controls.Add(this.pic_voltar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -162,8 +164,6 @@ namespace TCC.Formularios
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pic_voltar;
         private System.Windows.Forms.Label lbl_titulo;
         private System.Windows.Forms.Label lbl_nome;
         private System.Windows.Forms.Label lbl_cpf;
@@ -172,5 +172,6 @@ namespace TCC.Formularios
         private System.Windows.Forms.MaskedTextBox msk_cpf;
         private System.Windows.Forms.TextBox txt_senha;
         private System.Windows.Forms.Button btn_cadastrar;
+        private System.Windows.Forms.PictureBox pic_voltar;
     }
 }
